@@ -29,8 +29,8 @@ export default class ListenerSupport {
    * Fire an event, synchronously invoking all listener callbacks that have been registered
    * @see #register 
    */
-  fire(payload) {
-    this._listeners.forEach((x) => x(payload));
+  fire({ data }) {
+    this._listeners.forEach((x) => x(data));
   }
 }
 

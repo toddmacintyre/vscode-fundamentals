@@ -3,6 +3,8 @@
     "target": "es2017",
     "jsx": "react",
     "module": "commonjs",
+    "checkJs": true,
+    "noImplicitAny": true,
     "sourceMap": true,
     "noImplicitReturns": true,
     "experimentalDecorators": true,
